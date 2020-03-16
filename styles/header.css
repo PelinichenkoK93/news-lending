@@ -1,0 +1,168 @@
+.header {
+	padding-bottom: 32px; 
+}
+.black-bar {
+	background-color: #00122f;
+	color: #fff;
+	
+	padding-top: 20px;
+	padding-bottom: 17px;
+	margin-bottom: 40px;
+}
+
+.title {
+	letter-spacing: -0.32px;
+	font-weight: 400;
+	font-size: 16px;
+
+	display: inline;
+}
+
+.title__link {
+	letter-spacing: -0.32px;
+	text-decoration: underline;
+
+	color: #fff;	
+}
+
+.datetime {
+	letter-spacing: -0.32px;
+	float: right;	
+}
+
+.logo {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.city {
+	vertical-align: middle;
+	display: inline-block;
+	padding-right: 18px;
+	margin-left: 56px;
+
+  	color: #448ccb;
+
+  	background: url("../img/arrow-down.png") no-repeat right;		
+}
+
+.city__border {	
+	display: inline-block;
+	vertical-align: middle;
+
+	border-bottom: 1px dashed #448ccb;
+}
+
+.datetime__info {
+	margin-left: 35px;
+	vertical-align: middle;
+	display: inline-block;	
+
+	color: #91919f;
+}
+
+.datetime__time {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 31px;
+	padding-left: 25px;
+
+	color: #91919f;
+
+	background: url("../img/clock.png") no-repeat left;	
+}
+
+.cloudy__text {
+	margin-left: 24px;
+	padding-left: 40px;
+	vertical-align: middle;
+	display: inline-block;
+	height: 20px;
+
+	color: #91919f;
+
+	background: url("../img/cloudy.png") no-repeat left;
+}
+
+.header__info {
+	margin-bottom: 40px;
+}
+
+.header__form {
+    position: relative;
+    float: right;
+    padding-left: 21px;
+    padding-top: 13px;    
+
+    width: 320px;
+    height: 45px;    
+
+    border-radius: 23px;
+    background-color: #ebebeb;
+}
+
+.header__input {
+  	font-size: 14px;
+  	width: 250px;
+
+  	border: none;
+  	outline: none;
+
+  	background: none;  
+}
+
+.header__input:focus {
+	border: 1px solid #91919f;
+}
+
+.header__button {
+	border: none;
+
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	width: 16px;
+	height: 17px;
+
+  	background: url("../img/search.png") no-repeat;  
+
+  	cursor: pointer;
+}
+
+.menu-container {
+	overflow: hidden;
+}
+
+.nav {
+	letter-spacing: -0.32px;	
+}
+
+.nav__ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;  	
+}
+
+.nav__li {
+	position: relative;
+	display: inline-block;	
+	margin-right: 37px;	
+}
+
+.nav__li:not(:last-child)::after {
+	content: "/";
+	position: absolute;
+	right: -25px;
+	color: #e5e5e8;
+}
+
+.exchange {
+	text-align: center;
+	padding: 10px 0 20px;
+	color: #458cca;
+	font-size: 15px;
+}
+.exchange span {
+	color: black;
+	margin-right: 150px;
+}

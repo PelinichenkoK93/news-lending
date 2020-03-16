@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box; /* Ограничивает размер элемента по ширине и высоте импользуется для IE */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit; /* Элемент * применяет для всего документа, применение значений родителя*/
+}
+
+body {
+	min-width: 1000px; /* Максимальная ширина контента*/
+	background-color: #fff; /*Цвет фона*/
+	margin: 0; /* Убирает внешние отступы элемента*/
+	font-family: "Arial", sans-serif; /* Используемые шрифты в документе*/
+	font-size: 16px; /* Основной размер шрифта документа*/
+	line-height: normal; /*Межстрочный интервал*/
+	color: #333; /*Цвет текста*/
+}
+
+body.modal-active {
+	overflow: hidden; /* Отображает информацию только внутри элемента. остальное скрывается */
+}
+
+img {
+	max-width: 100%; /* Размер изображений исходя из размеров области, элемента*/
+}
+
+a {
+	text-decoration: none; /* Убирает подчеркивание ссылки*/
+	color: inherit; /* Применяет цвет родителя*/
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.clearfix::after {  /* Фикс бага с флоат, добавляет высоту*/
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.fixed-container { /* Фиксированная ширина контента внутри контейнера*/
+	width: 1000px;
+	margin: 0 auto;
+}

@@ -1,0 +1,156 @@
+.black-bar-footer {
+	background-color: #00122f;
+	color: #fff;
+	
+	padding-top: 55px;
+}
+
+.nav-footer {
+	margin: 0;
+	padding: 0;
+	column-count: 2;
+	-moz-column-count: 2;
+    -webkit-column-count: 2;
+}
+
+.footer__left {
+	width: 250px;
+	float: left;
+}
+
+.nav-footer-left {
+	font-size: 16px;
+	letter-spacing: -0.32px;
+	margin-bottom: 15px;
+	word-wrap: break-word;
+}
+
+.footer__center {
+	width: 200px;
+	margin-left: 185px;
+	float: left;
+}
+
+.footer-logo {
+	margin-top: 5px;
+	margin-bottom: 14px;
+}
+
+
+.footer__right {
+	width: 250px;
+	padding-left: 29px;
+	float: right;
+}
+
+.social-logo {
+	margin: 0 0 40px 0;
+	padding: 0;
+}
+
+.social-logo-item {
+	position: relative;
+	display: inline-block;
+	padding-top: 2px;
+	margin-left: 18px;	
+}
+
+.social-logo-item:first-child {
+	margin-left: 0;
+}
+
+.vk {
+	background: url("../img/vk (1).png") no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+}
+
+.fb {
+	background: url("../img/facebook-logo (2).png") no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+}
+
+.tw {
+	background: url("../img/twitter-logo-silhouette (2).png") no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+}
+
+.inst {
+	background: url("../img/instagram.png") no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+}
+
+.contacts {
+	margin: 0;
+	padding: 0;
+}
+
+.contacts-item {
+	list-style: none;
+
+	margin-bottom: 24px;
+}
+
+.contacts-tel {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+
+	padding-left: 30px;
+	background: url("../img/call-answer.png") no-repeat left;
+}
+
+.contacts-mail {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+
+	padding-left: 30px;
+
+	background: url("../img/envelope.png") no-repeat left ;
+}
+
+
+
+.footer-info {
+	opacity: 0.9;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.28px;
+	text-align: center;
+
+	color: #fff;	
+}
+
+.border-footer {
+	border: 1px solid #fff;
+	opacity: 0.15;
+}
+
+.indents {
+	margin-bottom: 31px;
+}
